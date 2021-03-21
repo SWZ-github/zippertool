@@ -1,0 +1,35 @@
+{
+  "name": "zippertool",
+  "version": "0.1.0",
+  "description": "A CLI for zipping directories and files",
+  "main": "dist/cli.js",
+  "scripts": {},
+  "bin": {
+    "zipper": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SWZ-github/zippertool.git"
+  },
+  "keywords": [
+    "zip",
+    "tool",
+    "zipper",
+    "7z",
+    "unzip"
+  ],
+  "author": "SWZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SWZ-github/zippertool/issues"
+  },
+  "homepage": "https://github.com/SWZ-github/zippertool#readme",
+  "dependencies": {
+    "7zip-bin": "^5.1.1",
+    "commander": "^7.1.0",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1"
+  }
+}
